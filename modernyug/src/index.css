@@ -13,3 +13,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#shop_btn{
+  color: red;
+}
+#flex{
+  margin: auto;
+  width: 90%; 
+  padding: 10px 0 0 7px;
+}
+#textbox{
+  border : 1px solid;
+  width : 50%;
+  font-size: 28px;
+  margin-top: 10px;
+}
+#imgbox{
+  width :50%
+}
+img{
+  width: 100%;
+}
+#text{
+  font-size: 20px;
+}
+
