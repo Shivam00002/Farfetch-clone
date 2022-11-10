@@ -34,12 +34,10 @@ import {Link} from 'react-router-dom';
 
       
        <Link to='/'><li><a className='active'>Home</a> </li></Link>
-       <Link to='/womans'><li><a>Woman</a></li></Link>
-       <Link to='/mans'> <li><a>Man</a></li></Link> 
+       <Link to='/womens'><li><a>Women</a></li></Link>
+       <Link to='/mens'> <li><a>Men</a></li></Link> 
        <Link to='/kids'>  <li><a>Kids</a></li></Link>
-
-      <Link to='shivam'>shivam</Link>
-                             
+                       
     </ul>
 
     

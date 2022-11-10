@@ -3,8 +3,8 @@ import {Routes , Route} from 'react-router-dom';
 
 import Home from './Home';
 import Kids from './Kids';
-import Mans from './Mans';
-import Womans from './Womans';
+import Mens from './Mens';
+import Womens from './Womens';
 
 function AllRoutes(){
     return (
@@ -12,9 +12,9 @@ function AllRoutes(){
            <Routes>
 
      <Route path="/" element={<Home />} />
-      <Route path="/mans" element={<Mans />} />
+      <Route path="/mens" element={<Mens />} />
       <Route path="/kids" element={<Kids />} />
-      <Route path="/womans" element={<Womans />} />
+      <Route path="/womens" element={<Womens />} />
     
            </Routes>
         </div>

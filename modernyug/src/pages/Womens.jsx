@@ -7,7 +7,7 @@ import {useEffect , useState} from 'react';
     return fetch(`https://raw.githubusercontent.com/shaantanu9/AJIO-API/81e32fcf52f528bee7f4847a538ba22ed66f4b21/AJIO.json`).then((res)=>res.json())
   }
 
-function Womans(){
+function Womens(){
     const [data , SetData] = useState([]);
     const [loading , SetLoading] = useState(false);
 
@@ -33,4 +33,4 @@ function Womans(){
     )
 }
 
-   export default Womans
+   export default Womens

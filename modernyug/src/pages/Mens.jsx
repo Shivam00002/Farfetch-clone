@@ -1,6 +1,6 @@
 import react from 'react';
 
-function Mans(){
+function Mens(){
     return (
         <div>
             Mans
@@ -8,4 +8,4 @@ function Mans(){
     )
 }
 
-export default Mans;
+export default Mens;
