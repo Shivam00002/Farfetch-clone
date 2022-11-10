@@ -4,6 +4,7 @@ import {Box , Flex , Text} from '@chakra-ui/react'
 import '../index.css'
 
 function Home(){
+    
     return (
 
     <Box> 

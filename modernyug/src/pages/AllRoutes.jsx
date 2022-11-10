@@ -1,5 +1,6 @@
 import react from 'react';
 import {Routes , Route} from 'react-router-dom';
+
 import Home from './Home';
 import Kids from './Kids';
 import Mans from './Mans';
@@ -14,9 +15,7 @@ function AllRoutes(){
       <Route path="/mans" element={<Mans />} />
       <Route path="/kids" element={<Kids />} />
       <Route path="/womans" element={<Womans />} />
-
-
-
+    
            </Routes>
         </div>
     )

@@ -32,26 +32,20 @@ import {Link} from 'react-router-dom';
     
     <ul id='navbar' className={this.state.clicked ? '#navbar active' : "navbar"}>
 
-       
-
-
-
- 
+      
        <Link to='/'><li><a className='active'>Home</a> </li></Link>
        <Link to='/womans'><li><a>Woman</a></li></Link>
        <Link to='/mans'> <li><a>Man</a></li></Link> 
        <Link to='/kids'>  <li><a>Kids</a></li></Link>
-      
+
+      <Link to='shivam'>shivam</Link>
+                             
     </ul>
 
     
-
-
    </div>
 
-   
-
-
+  
    <div id='logo'>
     <img style={{width :'24px'}} src="https://cdn-icons-png.flaticon.com/512/197/197419.png" alt="" />
     <img style={{width :'27px'}} src="https://cdn-icons-png.flaticon.com/128/4526/4526817.png" alt="" />
