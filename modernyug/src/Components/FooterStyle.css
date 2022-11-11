@@ -1,0 +1,36 @@
+
+#mainbox{
+    padding-top: 130px;
+}
+
+#footmain{
+    background-color: rgba(0, 0, 0, 0.853);
+    width: 97%;
+   text-align: left;
+    margin: auto;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 4px;
+    padding: 7px;
+}
+  .text{
+    cursor: pointer;
+
+}
+
+.footerbox{
+
+    width: 35%;
+}
+.footbox{
+    width: 50%;
+
+    text-align: left;
+}
+
+.ind{
+    width : 24px;
+    height : 24px;
+    margin-top: 16px;
+    padding-right: 10px;
+}

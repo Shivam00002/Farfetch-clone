@@ -1,12 +1,22 @@
 import react from 'react';
-import {Box , Flex , Text , ButtonGroup ,Button} from '@chakra-ui/react'
- 
+import {Box , Flex , Text , ButtonGroup ,Button ,Stack ,Checkbox ,Input} from '@chakra-ui/react'
 import '../index.css'
+import Footer from '../Components/Footer'
+
+
+
+
+
+
+
+
 
 function Home(){
 
     return (
 <>
+
+
     <Box> 
          <Flex id='flex'>
             <Box id='imgbox'><img src="https://cdn-static.farfetch-contents.com/cms-cm10/caas/v1/media/4016468/data/b0fbcd99aac1f3ef2f6552360e3f93cc/1x1_messaging-side/637/data.jpeg" alt="" /></Box>
@@ -69,6 +79,8 @@ Explore the latest star-patched sneaker silhouettes, including the retro- <br />
     </Flex>
 
 
+  
+
 
 
     <Flex id='flex3'>
@@ -124,6 +136,8 @@ Explore the latest star-patched sneaker silhouettes, including the retro- <br />
     </Flex>
 
    <h1>Shop gifts by brand</h1>
+
+   
    
      <Flex id='flex4'>
         <Box>
@@ -143,6 +157,54 @@ Explore the latest star-patched sneaker silhouettes, including the retro- <br />
        
      </Flex>
 
+     <Flex id='flex5'>
+
+        <Box className='bx'>
+        <img className='logl' src="https://img.icons8.com/ios/2x/tourist-male.png" alt="" />
+            <p>HOW TO SHOP</p>
+            <p>Your guide to shoping and placing order</p>
+        </Box>
+        <Box className='bx'>
+        <img className='logl' src="https://img.icons8.com/color/2x/ask-question.png" alt="" />
+            <p>FAQS</p>
+            <p>You questions answered</p>
+        </Box>
+        <Box className='bx'>
+        <img className='logl' src="https://img.icons8.com/ios/2x/demand.png" alt="" />
+            <p>NEED HELP</p>
+            <p>Contect your global Customer Service and team</p>
+        </Box>
+
+     </Flex>
+
+     <Box id='lbox'>
+        <h1>GET 10% OFF YOUR <br/>FIRST ORDER</h1>
+        <p>Sign up for promotions, tailored new arrivals, stock <br /> updates and more – straight to your inbox</p>
+
+        <Stack className='Checkbox' spacing={5} direction='row' iconSize='1rem'>
+        <input type="checkbox" placeholder='Email' />
+    <label htmlFor="">Womenswere</label>
+    <input type="checkbox" placeholder='Email' />
+    <label htmlFor="">Menswere</label>
+</Stack>
+
+<Box id='mailbox'>   
+    <p className='get'>GET UPDATES BY</p>
+    <input className='w' type="checkbox" />
+    <lable>Email</lable><br />
+    <Input  className='put' placeholder='Email' size='lg' /><br />
+    <input className='w'id='sms' type="checkbox" />
+    <lable>SMS</lable><br />
+    <Input className='put' placeholder='Your mobile number' size='lg' /><br />
+    <button className='sbtn'>Sign Up</button>
+
+    <p>By signing up, you agree to our Privacy Policy. <br /> Unsubscribe anytime at the bottom of our emails.</p>
+</Box>
+ 
+
+     </Box>
+
+     <Footer/>
     </>   
     )
 }
