@@ -46,7 +46,8 @@ import {Link} from 'react-router-dom';
   
    <div id='logo'>
     <img style={{width :'24px'}} src="https://cdn-icons-png.flaticon.com/512/197/197419.png" alt="" />
-    <img style={{width :'27px'}} src="https://cdn-icons-png.flaticon.com/128/4526/4526817.png" alt="" />
+    <Link to='/login'><img style={{width :'27px'}} src="https://cdn-icons-png.flaticon.com/128/4526/4526817.png" alt="" /></Link>
+ 
     <img style={{width :'27px'}} src="https://cdn-icons-png.flaticon.com/128/3870/3870922.png" alt="" />
     <img style={{width :'27px'}}  src="https://cdn-icons-png.flaticon.com/128/7712/7712102.png" alt="" />
 

@@ -57,11 +57,7 @@ img{
 
 }
 
-.flexkid{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-border: 1px solid;
-}
+
 
 #shop_btn2{
   width: 110px;
@@ -212,3 +208,9 @@ border-radius: 6px;
 .sbtn:hover{
  background-color: rgba(0, 0, 0, 0.617);
 }
+
+.flexkid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  border: 1px solid red;
+  }

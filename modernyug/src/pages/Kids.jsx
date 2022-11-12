@@ -69,15 +69,12 @@ function Kids(){
       <div className='flexkid'>
 
         <div>
-        <img id='img'  src={el.image} alt="" /><br />
+        <img id='img'  src={el.image} alt="" />
         <button>ram</button>
         <p>shivam</p>
         </div>
        
             
-      
-      
-
         </div>
        ))}
   </>
