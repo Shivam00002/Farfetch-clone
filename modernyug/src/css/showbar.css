@@ -1,0 +1,59 @@
+.showbar {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 4vh;
+    column-gap: 2vw;
+    display: grid;
+    grid-template-areas: "box1 box2 box3 box4";
+    padding: 0 5vw;
+  }
+  
+  .first-show {
+    grid-area: box1;
+    align-self: center;
+    text-align: center;
+  }
+  .showbar img {
+    width: 100%;
+  }
+  .showbar p {
+    color: rgba(219, 199, 86, 0.863);
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    font-size: 1vw;
+  }
+  
+  .showbar h5 {
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  
+  .showbar h4 {
+    margin-top: 2vh;
+    font-size: 1.3vw;
+  }
+  
+  .showbar h6 {
+    font-size: 1.1vw;
+    margin-top: 2px;
+  }
+  
+  .second-show {
+    grid-area: box2;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .third-show {
+    grid-area: box3;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .forth-show {
+    grid-area: box4;
+    align-self: center;
+    text-align: center;
+  }
+  

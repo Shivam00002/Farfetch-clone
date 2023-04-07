@@ -1,0 +1,111 @@
+.Navcontainer {
+    /* border: 1px solid rgb(230, 230, 230); */
+    width: 100%;
+    height: 42px;
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.box {
+    font-size: 14px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    margin: 3px 0;
+}
+
+/* .changecontent {
+    margin-top: 1px;
+}
+
+.changecontent p {
+    margin-top: 3px;
+    text-align: center;
+} */
+
+p1 {
+    text-decoration: underline;
+}
+
+p2 {
+    color: black;
+
+}
+
+
+.b1 {
+
+    /* margin-top: 2px; */
+    font-size: 14px;
+    text-align: center;
+    animation: ani1 10s infinite;
+}
+
+.b2 {
+
+    /* margin-top: 3px; */
+    font-size: 14px;
+    animation: ani2 10s infinite;
+    color: red;
+}
+
+.b3 {
+    /* margin-top: 3px; */
+    font-size: 13px;
+    animation: ani3 10s infinite;
+    color: red;
+    opacity: 0;
+}
+
+@keyframes ani1 {
+
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes ani2 {
+
+    20% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes ani3 {
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+}

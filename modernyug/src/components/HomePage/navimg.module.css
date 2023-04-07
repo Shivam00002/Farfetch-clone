@@ -1,0 +1,26 @@
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+   width: 80%;
+   margin: auto;
+    justify-content: space-around; 
+}
+
+.card {
+  width: 350px;
+  margin:0;  
+}
+
+.card img {
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .cardContainer{
+      display: none;
+    }
+}
+@media screen and (max-width:900px) {
+.card img {
+    width: 200px;
+  }
+}

@@ -1,10 +1,70 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "address": [
+    {
+      "firstName": "Akshay",
+      "lastName": "Singh",
+      "country": "India",
+      "pincode": "rkew;",
+      "address": "fsdafadsf",
+      "phone": "dsfdsf",
+      "city": "fadsfds",
+      "state": "dfasdf",
+      "id": 2
+    },
+    {
+      "firstName": "Akshay",
+      "lastName": "Singh",
+      "country": "India",
+      "pincode": "rkew;",
+      "address": "fsdafadsf",
+      "phone": "dsfdsf",
+      "city": "fadsfds",
+      "state": "dfasdf",
+      "id": 3
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "country": "",
+      "pincode": "",
+      "address": "",
+      "phone": "",
+      "city": "",
+      "state": "",
+      "id": 4
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "country": "",
+      "pincode": "",
+      "address": "",
+      "phone": "",
+      "city": "",
+      "state": "",
+      "id": 5
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "country": "",
+      "pincode": "",
+      "address": "",
+      "phone": "",
+      "city": "",
+      "state": "",
+      "id": 6
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "country": "",
+      "pincode": "",
+      "address": "",
+      "phone": "",
+      "city": "",
+      "state": "",
+      "id": 7
+    }
+  ]
+}

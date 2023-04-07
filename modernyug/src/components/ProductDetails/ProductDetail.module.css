@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  width: 70%;
+  margin: 10% auto;
+  font-family: Arial, sans-serif;
+  justify-content: space-around;
+}
+
+.left {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.right {
+  width: 40%;
+  text-align: left;
+}
+
+.left img {
+  width: 80%;
+  height: 80%;
+  transition: 0.5s all ease-in-out;
+}
+
+.left:hover {
+  transform: scale(1.5);
+}
+
+.right>p:nth-child(1) {
+  color: gray;
+}
+
+.right>h3 {
+  text-transform: uppercase;
+  line-height: 2px;
+}
+
+.right>p:nth-child(3) {
+  font-weight: lighter;
+  color: black;
+}
+
+.right>p>span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.right>p:nth-child(4) {
+  font-weight: lighter;
+  color: black;
+  font-size: 12px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.right p:nth-child(5) {
+  /* border: 1px solid red; */
+  font-weight: lighter;
+  margin: 15px 0;
+  cursor: pointer;
+
+}
+
+.right>select {
+  width: 98%;
+  font-size: 15px;
+  height: 40px;
+  text-align: left;
+  background-color: transparent;
+  margin: 10px 0;
+  font-weight: 500;
+  border-radius: 4px;
+  color: black;
+}
+
+.right p:last-child {
+  font-weight: lighter;
+  cursor: pointer;
+  color: red;
+  font-size: 14px;
+}
+
+
+.right>div>img {
+  width: 14%;
+  height: 45px;
+  margin-right: 70%;
+  cursor: pointer;
+  margin: 10px 0 0 0;
+  /* border: 1px solid  red; */
+}
+
+.right>div>img:hover {
+  width: 18%;
+  height: 50px;
+  margin-right: 70%;
+  /* border: 1px solid  red; */
+}
+
+.add {
+  display: flex;
+  width: 100%;
+
+}
+
+
+.save {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  background-color: rgb(15, 14, 14);
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.save:hover {
+  background-color: #595959;
+}
+
+.add>button:nth-child(2) {
+  border: 1px solid black;
+  width: 50%;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.add>button:nth-child(2):hover {
+  color: gray;
+}

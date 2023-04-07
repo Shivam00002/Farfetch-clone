@@ -1,0 +1,30 @@
+.collection img {
+  width: 100%;
+}
+.collection a {
+  text-decoration: none;
+}
+.collection p {
+  color: gray;
+  font-size: 16px;
+}
+
+/* .collection h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: black;
+} */
+.product {
+  text-align: left;
+}
+.collection h4 {
+  font-size: 16px;
+  color: black;
+}
+
+/* .collection h6 {
+  font-size: 16px;
+  margin-top: 2px;
+  color: black;
+} */
