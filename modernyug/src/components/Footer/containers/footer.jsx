@@ -1,24 +1,25 @@
 import React from "react";
 import Footer from "../footer";
 import Icon from "../icons";
-
+import styles from "./Footer.css"
 export function FooterContainer() {
   return (
     <Footer>
-      <Footer.Wrapper>
-        <Footer.Row>
-          <Footer.Column>
+
+      <Footer.Wrapper >
+        <Footer.Row >
+          <Footer.Column className="h">
             <Footer.Title>FARFETCH APP</Footer.Title>
             <Footer.Link href="#">Farfetch App for iOS and Android</Footer.Link>
-          </Footer.Column>
-          <Footer.Column>
-            <Footer.Title>
+          </Footer.Column  >
+          <Footer.Column className="h">
+            <Footer.Title >
               DESTINATION/REGION, CURRENCY AND LANGUAGE
             </Footer.Title>
             <Footer.Link href="#">India, USD $</Footer.Link>
           
             <Footer.Title>FOLLOW US</Footer.Title>
-            <Footer.Column>
+            <Footer.Column className="h">
               <Footer.Icon href="#">
                 <Footer.Link href="#">
                   <Icon className="fab fa-instagram " />
@@ -41,7 +42,7 @@ export function FooterContainer() {
               </Footer.Icon>
             </Footer.Column>
           </Footer.Column>
-          <Footer.Column>
+          <Footer.Column className="h">
 
             <Footer.Title>CUSTOMER SERVICE</Footer.Title>
         
@@ -55,8 +56,8 @@ export function FooterContainer() {
             <Footer.Link href="#">Privacy policy</Footer.Link>
             <Footer.Link href="#">Accessibility</Footer.Link>
           </Footer.Column>
-          <Footer.Column>
-            <Footer.Title>ABOUT FARFETCH</Footer.Title>
+          <Footer.Column className="h" id="h">                              
+            <Footer.Title >ABOUT FARFETCH</Footer.Title>
             <Footer.Link href="#">About Us</Footer.Link>
             <Footer.Link href="#">Investors</Footer.Link>
             <Footer.Link href="#">Boutique Partners</Footer.Link>

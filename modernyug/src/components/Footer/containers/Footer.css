@@ -1,0 +1,28 @@
+.ch{
+  
+  height: auto;
+}
+#h{
+ 
+   margin-top: -240px;
+
+}
+
+@media only screen and (min-width: 600px) {
+    .h{
+        font-size: 2px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .h{
+      font-size: 2px;
+        border: 3px solid red;
+    }
+
+    #h{
+        border : 5px solid green;
+       margin-top: -240px;
+    
+    }
+}
