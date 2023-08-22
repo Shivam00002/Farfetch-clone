@@ -13,6 +13,7 @@ export const reducer = (state = initialState, { type, payload }) => {
 
         case MENS_DATA: {
             return {
+
                 ...state,
                 menProducts: payload,
                 storingData: payload
@@ -23,6 +24,7 @@ export const reducer = (state = initialState, { type, payload }) => {
                 ...state,
                 womenProducts: payload,
                 storingData: payload
+
             };
         }
         case HANDLE_SINGLE_DATA: {
@@ -30,12 +32,15 @@ export const reducer = (state = initialState, { type, payload }) => {
             console.log('store', state.storingData);
 
             return {
+
                 ...state,
                 singleData:  state.storingData.filter((item) => item._id === payload)
+
             };
         }
         case CART: {
             return {
+
                 ...state,
                 cart: [ ...state.cart, payload ]
             };
@@ -45,12 +50,14 @@ export const reducer = (state = initialState, { type, payload }) => {
             console.log("add", payload);
             return {
                 ...state,
+
                 address: [...state.address,payload]
             };
         }
         case REMOVE_DATA_FROM_CART: {
             console.log('remove',payload, state.cart)
             return {
+
                 ...state,
                 cart: state.cart.splice( payload,state.cart.length-1)
                 // cart: [ ...state.cart ].splice(payload, 1)
