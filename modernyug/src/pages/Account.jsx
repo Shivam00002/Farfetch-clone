@@ -14,6 +14,7 @@ const Account = () => {
         setValue(newValue);
     };
 
+
     const paperStyle = { width: 340, margin: "auto" };
     function TabPanel(props) {
         const { children, value, index, ...other } = props;
