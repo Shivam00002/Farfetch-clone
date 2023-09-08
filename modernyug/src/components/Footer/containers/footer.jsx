@@ -7,6 +7,7 @@ export function FooterContainer() {
     <Footer>
 
 
+
       <Footer.Wrapper >
         <Footer.Row >
           <Footer.Column className="h">
