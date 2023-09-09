@@ -25,6 +25,7 @@ export const Row = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
   }
 `;
+
 export const Link = styled.div`
   color: white;
   font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
