@@ -27,6 +27,7 @@ const BootstrapDialogTitle = (props) => {
         setState(!state)
         navigate('/')
     }
+
     return (
         <DialogTitle sx={ { m: 0, p: 2 } } { ...other }>
             { children }
