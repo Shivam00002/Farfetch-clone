@@ -55,6 +55,7 @@ const Itemdetails = ({ image, title, description, price, id }) => {
           price={price}
           description={description}
         />
+
       </div>
     </div>
   );
