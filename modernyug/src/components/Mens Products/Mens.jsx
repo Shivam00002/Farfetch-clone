@@ -7,8 +7,6 @@ import Collection from "../All_Products/collection";
 import Sidebar from "../All_Products/sidebar";
 
 
-
-
 const Men = () => {
     const dispatch = useDispatch();
 
