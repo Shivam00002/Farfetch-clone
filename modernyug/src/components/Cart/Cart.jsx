@@ -15,8 +15,6 @@ export const CartData = () => {
     const dispatch = useDispatch();
 
 
-
-
     const handleDel = (id) => {
         console.log("id", id);
         dispatch(removeDataFromCart(id));
