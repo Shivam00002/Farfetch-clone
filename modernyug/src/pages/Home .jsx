@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar/Navbar';
 import { OfferNavbar } from '../components/subcomponents/OfferNavbar';
 import { FooterContainer } from '../components/Footer/containers/footer';
 
+
+
 export const Home  = () => {
   const header = { fontSize: "40px" }
   return (
