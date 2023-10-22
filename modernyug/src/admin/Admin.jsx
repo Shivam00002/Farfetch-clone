@@ -22,9 +22,7 @@ const [price , setPrice] = useState("")
   }
 
 
- 
 
-  
   const postData= async(data)=>{
 
   if(category==="men"){
