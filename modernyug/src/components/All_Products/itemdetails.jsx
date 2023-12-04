@@ -16,6 +16,7 @@ export const AddToCart = ({ image, title, description, price }) => {
   };
   console.log(cart);
 
+
   return (
     <Button variant="dark" onClick={handleClick}>
       Add to bag
