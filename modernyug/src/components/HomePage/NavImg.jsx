@@ -4,6 +4,7 @@ import data from "./data";
 import styles from './navimg.module.css'
 
 export const NavImg = () => {
+
     return (
         <div className={styles.cardContainer}>
             { data.map(item => (
