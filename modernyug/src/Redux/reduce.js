@@ -28,6 +28,7 @@ export const reducer = (state = initialState, { type, payload }) => {
             };
         }
 
+
         case HANDLE_SINGLE_DATA: {
             console.log('pay', payload);
             console.log('store', state.storingData);
