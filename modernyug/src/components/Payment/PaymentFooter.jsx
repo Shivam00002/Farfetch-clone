@@ -15,6 +15,7 @@ export const PaymentFooter = () => {
         <div className={ styles.billingAddTexts }>
           <p>{ data ? data.firstName : 'Name' }</p>
           <p>{ data ? data.address : 'Address' }</p>
+
           <p>{ data ? data.country : "Country" }</p>
           <p>Edit</p>
         </div>
