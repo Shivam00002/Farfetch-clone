@@ -20,6 +20,7 @@ export const CartData = () => {
         dispatch(removeDataFromCart(id));
     };
 
+
     const handleCheckoutCart = () => {
         if(cartItems.length === 0){
             alert("Please Add to Bag First");
