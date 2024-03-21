@@ -11,7 +11,7 @@ const [img_url , setImg] = useState("")
 const [category , setCategory] = useState("")
 const [detail , setDetail] = useState("")
 const [price , setPrice] = useState("")
-
+. 
  const handleformSubmit =(e)=>{
     e.preventDefault()
 
