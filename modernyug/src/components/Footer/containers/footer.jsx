@@ -23,6 +23,7 @@ export function FooterContainer() {
               <Footer.Icon href="#">
                 <Footer.Link href="#">
                   <Icon className="fab fa-instagram " />
+
                 </Footer.Link>
                 <Footer.Link href="#">
                   <Icon className="fab fa-facebook-f " />
