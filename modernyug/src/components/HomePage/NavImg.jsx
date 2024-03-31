@@ -9,7 +9,8 @@ export const NavImg = () => {
         <div className={styles.cardContainer}>
             { data.map(item => (
                     <Link to={ item.url }>
-                <div className={styles.card}>
+                <div
+ className={styles.card}>
                         <img src={ item.img } alt="" />
                 </div>
                     </Link>
