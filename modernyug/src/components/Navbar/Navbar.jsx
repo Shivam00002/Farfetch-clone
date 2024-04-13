@@ -19,7 +19,6 @@ const Navbar = () => {
 
       <nav className="main-nav">
      
-
         <div
           className={
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
