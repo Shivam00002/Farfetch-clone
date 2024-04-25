@@ -11,6 +11,7 @@ export const NavImg = () => {
                     <Link to={ item.url }>
                 <div
  className={styles.card}>
+
                         <img src={ item.img } alt="" />
                 </div>
                     </Link>
