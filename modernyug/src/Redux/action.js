@@ -6,6 +6,7 @@ export const GET_ADDRESS = "GET_ADDRESS";
 export const HANDLE_SINGLE_DATA = "HANDLE_SINGLE_DATA";
 
 
+
 export const mensData = (data) => ({
     type: MENS_DATA,
     payload: data
