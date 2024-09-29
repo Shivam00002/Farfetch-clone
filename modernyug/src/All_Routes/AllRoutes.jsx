@@ -11,6 +11,7 @@ import { CartPage } from "../pages/CartPage";
 import Admin from "../admin/admin";
 
 export const AllRoutes = () => {
+
    
     return (
         <div>
