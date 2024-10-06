@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { removeDataFromCart } from "../../Redux/action";
 
+
 export const CartData = () => {
     const navigate = useNavigate();
 
