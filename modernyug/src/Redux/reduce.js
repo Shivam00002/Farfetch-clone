@@ -8,6 +8,7 @@ const initialState = {
     cart: [],
     address: []
 };
+
 export const reducer = (state = initialState, { type, payload }) => {
     switch (type) {
 
