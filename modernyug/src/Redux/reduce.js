@@ -9,6 +9,7 @@ const initialState = {
     address: []
 };
 
+
 export const reducer = (state = initialState, { type, payload }) => {
     switch (type) {
 
